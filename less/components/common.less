@@ -1,0 +1,35 @@
+@import "var.less";
+
+body {
+    margin: 0;
+   
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    border: 0;
+
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    @media only screen and (min-width: @mobile){
+        max-width: 520px;
+    }
+
+    @media only screen and (min-width: @desktop){
+        max-width: 1140px;
+    }
+}

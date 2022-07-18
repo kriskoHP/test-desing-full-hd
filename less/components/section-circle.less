@@ -1,0 +1,108 @@
+@import "var.less";
+
+.section-circle {
+    &-1 {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgba(114, 33, 3, 0.765);
+        
+       p {
+            text-align: center;
+            padding-top: 45px;
+            font-size: 20px;
+            font-weight: 500;
+            i {
+                display: inline-block;
+                padding-left: 250px;
+                padding-right: 190px;
+                font-size: 50px;
+                transform: rotate(270deg);
+               
+                
+            }
+            
+       }
+
+    }
+
+    &-2 {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgb(98, 126, 37);       
+        margin-left: auto;
+        p {
+            text-align: center;
+            padding-top: 45px;
+            font-size: 20px;
+            font-weight: 500;
+           
+        }
+        i{
+            font-size: 50px;
+            padding-top: 80px;
+            padding-left: 45px;
+         
+        }
+    }
+
+    &-3 {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgb(160, 116, 150);
+        margin-top: 100px;
+             
+        p {
+            text-align: center;
+            padding-top: 45px;
+            font-size: 20px;
+            font-weight: 500;
+        }
+     
+    }
+
+    &-4 {
+        display: inline-block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-color: rgb(67, 67, 195); 
+        margin-top: 100px;
+        margin-left: auto;
+        p {
+            text-align: center;
+            padding-top: 45px;
+            font-size: 20px;
+            font-weight: 500;
+        
+        }
+       
+    }
+
+    .section-wrapper{
+        @media only screen and (min-width: @mobile){
+        display: grid;
+        grid-template-columns: 50% 50%;      
+        }
+
+        @media only screen and (min-width: @desktop){
+            display: inline-block;
+            margin-bottom: 100px;
+            margin-right: 100px;
+            i{
+                display: none;
+                margin-right: 100px;
+
+            }
+        }
+
+       
+    }
+
+    
+}

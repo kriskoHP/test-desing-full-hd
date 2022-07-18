@@ -1,0 +1,116 @@
+@import "var.less";
+
+.section-table {
+    &-1 {
+
+        ul {
+            li{
+                display: inline-block;
+                width: 100%;
+                border: 1px;
+                background-color: @color-grey;
+                margin-top: 5px;
+                padding: 5px 1px;
+               
+               
+            }
+       }
+
+        li:hover {
+             background-color:  rgb(131, 193, 238);
+        }
+
+        
+    }
+
+    &-2 {
+        ul {
+
+            li{
+                 display: inline-block;
+                 width: 100%;
+                 border: 1px;
+                 background-color: @color-grey;               
+                 padding: 5px 1px;
+                 margin-top: 5px;
+                 
+                
+                
+            }
+        }
+
+        li:hover {
+            background-color:  rgb(131, 193, 238);
+       }
+         
+    }
+ 
+   
+    &-3 {
+        ul {
+
+            li{
+                 display: inline-block;
+                 border: 1px;
+                 background-color: @color-grey;
+                 width: 100%;
+                 padding: 5px 1px;
+                 margin-top: 5px;
+                
+                
+                
+            }
+        }
+
+        li:hover {
+            background-color:  rgb(131, 193, 238);
+       }
+         
+    }
+
+    &-4 {
+        ul {
+
+            li{
+                 display: inline-block;
+                 border: 1px;
+                 background-color: @color-grey;
+                 width: 100%;                
+                 margin-top: 5px;
+                 padding: 5px 1px;
+                
+                 
+                
+            }
+        }
+
+        li:hover {
+            background-color:  rgb(131, 193, 238);
+       }
+         
+    }
+    
+    .section-wrapper {
+       
+
+        @media only screen and (min-width: @mobile){
+            display: grid;
+            grid-template-columns: 50% 50%;
+            
+            
+        }
+
+        @media only screen and (min-width: @desktop){
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-gap: 10px;            
+            
+        }
+    }
+
+   
+
+
+
+
+}
